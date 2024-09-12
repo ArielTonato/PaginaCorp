@@ -6798,3 +6798,18 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 200%; /* Ajusta según el tamaño que quieras para el logo */
+  max-height: 50px; /* Cambia el valor según la altura que quieras para el logo */
+  display: block;
+}

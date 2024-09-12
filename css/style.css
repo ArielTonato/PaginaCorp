@@ -241,7 +241,7 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 25%;
+	left: 10%;
 	position: relative;
 }
 #menu ul.nav li a {
@@ -1353,5 +1353,12 @@ font-weight:bolder;
 }
 .parallex-content h6{
 color:#fff;
+}
+
+.niv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 /*Basic-Stylesheets-End-Here*/

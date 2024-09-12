@@ -241,7 +241,7 @@ a.navbar-brand img {
 	position:absolute;
 }
 #menu .nav {
-	left: 25%;
+	left: 10%;
 	position: relative;
 }
 #menu ul.nav li a {
@@ -1353,5 +1353,11 @@ font-weight:bolder;
 }
 .parallex-content h6{
 color:#fff;
+}
+.team-img img {
+    width: 300px; /* Establece el ancho deseado */
+    height: 300px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen sin distorsión, recorta si es necesario */
+    border-radius: 5px; /* (Opcional) Para bordes redondeados */
 }
 /*Basic-Stylesheets-End-Here*/
